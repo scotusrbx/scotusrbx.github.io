@@ -1,5 +1,5 @@
 <?php
-$target_dir = "uploads/";
+$target_dir = "uploadtest/";
 $target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
 $uploadOk = 1;
 $docFileType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));
